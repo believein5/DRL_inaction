@@ -1,0 +1,38 @@
+device: cuda
+trials: 12 x 20000 epochs (~12 min)
+
+[1/12] book_n2_seed0  (elapsed 0.0min)
+  eval= 90.0% (27/30) spread=0.0826 train_wins=704/716 loss[0.3692→0.0006] (1.0min)
+[2/12] book_n2_seed1  (elapsed 1.0min)
+  eval= 93.3% (28/30) spread=0.0619 train_wins=580/588 loss[0.3813→0.0012] (0.9min)
+[3/12] book_n2_seed2  (elapsed 1.9min)
+  eval= 96.7% (29/30) spread=0.0524 train_wins=883/885 loss[1.5506→0.0002] (0.9min)
+[4/12] book_n3_seed0  (elapsed 2.8min)
+  eval= 93.3% (28/30) spread=0.0950 train_wins=692/708 loss[0.3572→0.0006] (0.9min)
+[5/12] book_n3_seed1  (elapsed 3.8min)
+  eval= 33.3% (10/30) spread=0.0589 train_wins=50/80 loss[0.3573→0.0189] (1.0min)
+[6/12] book_n3_seed2  (elapsed 4.8min)
+  eval=100.0% (30/30) spread=0.0750 train_wins=970/974 loss[1.5125→0.0006] (0.9min)
+[7/12] corrected_n2_seed0  (elapsed 5.7min)
+  eval= 80.0% (24/30) spread=0.0313 train_wins=1078/1084 loss[0.1782→0.0001] (0.9min)
+[8/12] corrected_n2_seed1  (elapsed 6.6min)
+  eval= 73.3% (22/30) spread=0.0269 train_wins=1121/1124 loss[0.7840→0.0001] (0.9min)
+[9/12] corrected_n2_seed2  (elapsed 7.6min)
+  eval= 83.3% (25/30) spread=0.0536 train_wins=901/912 loss[0.1988→0.0002] (1.0min)
+[10/12] corrected_n3_seed0  (elapsed 8.5min)
+  eval=100.0% (30/30) spread=0.0738 train_wins=881/894 loss[0.1676→0.0004] (1.0min)
+[11/12] corrected_n3_seed1  (elapsed 9.5min)
+  eval=100.0% (30/30) spread=0.0603 train_wins=1073/1079 loss[0.7553→0.0003] (1.3min)
+[12/12] corrected_n3_seed2  (elapsed 10.8min)
+  eval=100.0% (30/30) spread=0.0810 train_wins=944/951 loss[0.1988→0.0005] (1.0min)
+
+======================================================================
+SUMMARY: eval success rate by (model, n) (3 seeds each)
+======================================================================
+model        n     mean      min      max                   per-seed
+book         2    93.3%    90.0%    96.7%    90.0%  93.3%  96.7%
+book         3    75.6%    33.3%   100.0%    93.3%  33.3% 100.0%
+corrected    2    78.9%    73.3%    83.3%    80.0%  73.3%  83.3%
+corrected    3   100.0%   100.0%   100.0%   100.0% 100.0% 100.0%
+
+total time: 11.8 min

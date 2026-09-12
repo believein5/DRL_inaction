@@ -1,0 +1,21 @@
+device: cuda
+trials: 6 x n=1 x 20000 epochs
+
+[1/6] book_n1_seed0  (elapsed 0.0min)
+  eval= 86.7% (26/30) spread=0.0251 train_wins=647/657 loss[0.3842→0.0003] (1.0min)
+[2/6] book_n1_seed1  (elapsed 1.0min)
+  eval=  0.0% (0/30) spread=0.0652 train_wins=92/115 loss[0.4108→0.0015] (1.0min)
+[3/6] book_n1_seed2  (elapsed 2.0min)
+  eval=100.0% (30/30) spread=0.0855 train_wins=613/622 loss[1.6283→0.0002] (1.0min)
+[4/6] corrected_n1_seed0  (elapsed 3.0min)
+  eval=100.0% (30/30) spread=0.1043 train_wins=332/347 loss[0.1899→0.0001] (0.9min)
+[5/6] corrected_n1_seed1  (elapsed 3.9min)
+  eval= 93.3% (28/30) spread=0.0298 train_wins=917/921 loss[0.8229→0.0001] (0.9min)
+[6/6] corrected_n1_seed2  (elapsed 4.9min)
+  eval=  3.3% (1/30) spread=0.0281 train_wins=49/78 loss[0.2096→0.0002] (1.1min)
+
+============================================================
+SUMMARY: n=1 eval success by model (3 seeds)
+============================================================
+  book       mean= 62.2%   per-seed:  86.7%   0.0% 100.0%
+  corrected  mean= 65.6%   per-seed: 100.0%  93.3%   3.3%

@@ -1,0 +1,35 @@
+device: cuda
+trials: 12 x 20000 epochs (~12 min)
+
+[1/12] N1_shr1.0_seed0  (elapsed 0.0min)
+  eval= 10.0% (3/30) spread=0.0646 train_wins=61/85 loss[0.3842→0.0001] (1.1min)
+[2/12] N1_shr1.0_seed1  (elapsed 1.1min)
+  eval=  0.0% (0/30) spread=0.0984 train_wins=49/77 loss[0.4108→0.0003] (1.0min)
+[3/12] N1_shr1.0_seed2  (elapsed 2.1min)
+  eval=100.0% (30/30) spread=0.0779 train_wins=732/738 loss[1.6283→0.0002] (0.9min)
+[4/12] N100_shr1.0_seed0  (elapsed 3.0min)
+  eval= 23.3% (7/30) spread=0.0366 train_wins=91/110 loss[0.3842→0.0105] (1.0min)
+[5/12] N100_shr1.0_seed1  (elapsed 4.0min)
+  eval=  0.0% (0/30) spread=0.1847 train_wins=377/384 loss[0.4108→0.0007] (1.0min)
+[6/12] N100_shr1.0_seed2  (elapsed 5.0min)
+  eval= 60.0% (18/30) spread=0.0922 train_wins=527/534 loss[1.6283→0.0003] (1.0min)
+[7/12] N1_shr0.1_seed0  (elapsed 5.9min)
+  eval=  0.0% (0/30) spread=0.0108 train_wins=17/58 loss[0.0070→0.0001] (1.0min)
+[8/12] N1_shr0.1_seed1  (elapsed 7.0min)
+  eval=  0.0% (0/30) spread=0.0890 train_wins=117/139 loss[0.0110→0.0012] (1.0min)
+[9/12] N1_shr0.1_seed2  (elapsed 8.0min)
+  eval=  0.0% (0/30) spread=0.0051 train_wins=16/58 loss[0.0040→0.0000] (1.1min)
+[10/12] N100_shr0.1_seed0  (elapsed 9.1min)
+  eval=  0.0% (0/30) spread=0.0182 train_wins=37/68 loss[0.0070→0.0035] (1.2min)
+[11/12] N100_shr0.1_seed1  (elapsed 10.3min)
+  eval=  0.0% (0/30) spread=0.0100 train_wins=20/57 loss[0.0110→0.0001] (1.4min)
+[12/12] N100_shr0.1_seed2  (elapsed 11.7min)
+  eval=  0.0% (0/30) spread=0.0116 train_wins=14/57 loss[0.0040→0.0000] (1.1min)
+
+======================================================================
+SUMMARY (3 seeds each)
+======================================================================
+  N=  1 shrink=1.0  mean= 36.7%   per-seed:  10.0%   0.0% 100.0%
+  N=100 shrink=1.0  mean= 27.8%   per-seed:  23.3%   0.0%  60.0%
+  N=  1 shrink=0.1  mean=  0.0%   per-seed:   0.0%   0.0%   0.0%
+  N=100 shrink=0.1  mean=  0.0%   per-seed:   0.0%   0.0%   0.0%  ← MATCHES USER NOTEBOOK

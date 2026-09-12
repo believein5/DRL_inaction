@@ -1,0 +1,59 @@
+[21:17:02] device = cuda
+[21:17:02]   NVIDIA GeForce RTX 4090
+[21:17:02] outdir = /home/CNS2026014739/Projects/csp_learning/pytorch_cspo/sweep_results
+[21:17:02] epochs per trial = 30000
+[21:17:02] trials to run: 17
+[21:17:02]   - 00_baseline
+[21:17:02]   - 01_dotproduct_attn
+[21:17:02]   - 02_no_elu_on_q
+[21:17:02]   - 03_mean_pool
+[21:17:02]   - 04_norm1_affine
+[21:17:02]   - 05_no_replay_dup
+[21:17:02]   - 06_eps_anneal
+[21:17:02]   - 07_lower_lr
+[21:17:02]   - 08_slower_target_update
+[21:17:02]   - 09_normalize_maxv
+[21:17:02]   - 10_dotproduct_no_elu_mean
+[21:17:02]   - 11_kitchen_sink
+[21:17:02]   - 12_fullyobs_baseline
+[21:17:02]   - 13_fullyobs_kitchen_sink
+[21:17:02]   - 14_empty5x5_kitchen_sink
+[21:17:02]   - 15_kitchen_sink_seed1
+[21:17:02]   - 16_kitchen_sink_seed2
+[21:17:02] [1/17] start 00_baseline
+[21:18:25]   done  eval=3.3% train_succ=97.5% final_spread=0.0125 time=1.3min
+[21:18:25] [2/17] start 01_dotproduct_attn
+[21:19:44]   done  eval=26.7% train_succ=98.1% final_spread=0.3053 time=1.3min
+[21:19:44] [3/17] start 02_no_elu_on_q
+[21:21:09]   done  eval=3.3% train_succ=93.5% final_spread=0.0152 time=1.3min
+[21:21:09] [4/17] start 03_mean_pool
+[21:22:31]   done  eval=0.0% train_succ=48.4% final_spread=0.0161 time=1.3min
+[21:22:31] [5/17] start 04_norm1_affine
+[21:23:56]   done  eval=0.0% train_succ=94.0% final_spread=0.3660 time=1.3min
+[21:23:56] [6/17] start 05_no_replay_dup
+[21:25:20]   done  eval=0.0% train_succ=95.4% final_spread=0.0248 time=1.3min
+[21:25:20] [7/17] start 06_eps_anneal
+[21:26:44]   done  eval=0.0% train_succ=69.7% final_spread=0.0540 time=1.3min
+[21:26:44] [8/17] start 07_lower_lr
+[21:28:07]   done  eval=0.0% train_succ=88.3% final_spread=0.4364 time=1.3min
+[21:28:07] [9/17] start 08_slower_target_update
+[21:29:30]   done  eval=0.0% train_succ=67.8% final_spread=0.0245 time=1.3min
+[21:29:30] [10/17] start 09_normalize_maxv
+[21:30:54]   done  eval=3.3% train_succ=93.9% final_spread=0.0918 time=1.3min
+[21:30:54] [11/17] start 10_dotproduct_no_elu_mean
+[21:32:13]   done  eval=0.0% train_succ=97.7% final_spread=0.0163 time=1.2min
+[21:32:13] [12/17] start 11_kitchen_sink
+[21:33:33]   done  eval=6.7% train_succ=92.6% final_spread=0.4370 time=1.3min
+[21:33:33] [13/17] start 12_fullyobs_baseline
+[21:34:57]   done  eval=0.0% train_succ=91.2% final_spread=0.0958 time=1.3min
+[21:34:57] [14/17] start 13_fullyobs_kitchen_sink
+[21:36:17]   done  eval=0.0% train_succ=60.5% final_spread=0.0086 time=1.3min
+[21:36:17] [15/17] start 14_empty5x5_kitchen_sink
+[21:37:35]   done  eval=0.0% train_succ=100.0% final_spread=0.0726 time=1.2min
+[21:37:35] [16/17] start 15_kitchen_sink_seed1
+[21:38:52]   done  eval=40.0% train_succ=93.0% final_spread=0.0211 time=1.2min
+[21:38:52] [17/17] start 16_kitchen_sink_seed2
+[21:40:10]   done  eval=0.0% train_succ=69.9% final_spread=0.0083 time=1.2min
+[21:40:10] all trials done
+[21:40:10] final report: /home/CNS2026014739/Projects/csp_learning/pytorch_cspo/sweep_results/sweep_report.md
+[21:40:10] raw results:  /home/CNS2026014739/Projects/csp_learning/pytorch_cspo/sweep_results/results.json

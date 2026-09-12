@@ -1,0 +1,34 @@
+# MNIST dataset (excluded per user choice; re-download via torchvision)
+pytorch_cspo/MNIST/
+**/MNIST/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# ONNX exports and model checkpoints
+*.onnx
+*.pth
+*.pt
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sweep working files (large, can be regenerated)
+pytorch_cspo/overnight_sweep.log
+pytorch_cspo/overnight_sweep_v2.log
+pytorch_cspo/test_nstep.log
+pytorch_cspo/test_nstep_sweep.log
+pytorch_cspo/test_qreg.log
+pytorch_cspo/diagnose.log

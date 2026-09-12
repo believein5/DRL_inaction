@@ -1,0 +1,50 @@
+[21:48:15] device = cuda
+[21:48:15] outdir = /home/CNS2026014739/Projects/csp_learning/pytorch_cspo/sweep_results_v2
+[21:48:15] trials: 15
+[21:48:15]   - dp_seed0 (epochs=30000, seed=0)
+[21:48:15]   - dp_seed1 (epochs=30000, seed=1)
+[21:48:15]   - dp_seed2 (epochs=30000, seed=2)
+[21:48:15]   - dp_seed3 (epochs=30000, seed=3)
+[21:48:15]   - dp_seed4 (epochs=30000, seed=4)
+[21:48:15]   - dp_60k_seed0 (epochs=60000, seed=0)
+[21:48:15]   - dp_60k_seed1 (epochs=60000, seed=1)
+[21:48:15]   - dp_no_elu_seed0 (epochs=30000, seed=0)
+[21:48:15]   - dp_no_elu_seed1 (epochs=30000, seed=1)
+[21:48:15]   - dp_norm1_affine_seed0 (epochs=30000, seed=0)
+[21:48:15]   - dp_norm1_affine_seed1 (epochs=30000, seed=1)
+[21:48:15]   - dp_eps_anneal_seed0 (epochs=30000, seed=0)
+[21:48:15]   - dp_eps_anneal_seed1 (epochs=30000, seed=1)
+[21:48:15]   - dp_no_replay_dup_seed0 (epochs=30000, seed=0)
+[21:48:15]   - dp_no_replay_dup_seed1 (epochs=30000, seed=1)
+[21:48:15] [1/15] start dp_seed0
+[21:49:36]   done  eval=0.0% train_succ=99.4% final_spread=0.0631 time=1.3min
+[21:49:36] [2/15] start dp_seed1
+[21:50:56]   done  eval=0.0% train_succ=97.3% final_spread=0.0302 time=1.3min
+[21:50:56] [3/15] start dp_seed2
+[21:52:15]   done  eval=0.0% train_succ=93.7% final_spread=0.0783 time=1.2min
+[21:52:15] [4/15] start dp_seed3
+[21:53:33]   done  eval=16.7% train_succ=98.8% final_spread=0.0389 time=1.2min
+[21:53:33] [5/15] start dp_seed4
+[21:54:53]   done  eval=0.0% train_succ=94.8% final_spread=0.1099 time=1.3min
+[21:54:53] [6/15] start dp_60k_seed0
+[21:57:25]   done  eval=20.0% train_succ=99.9% final_spread=0.1264 time=2.5min
+[21:57:25] [7/15] start dp_60k_seed1
+[21:59:58]   done  eval=0.0% train_succ=99.3% final_spread=0.5465 time=2.5min
+[21:59:58] [8/15] start dp_no_elu_seed0
+[22:01:17]   done  eval=0.0% train_succ=99.6% final_spread=0.1519 time=1.2min
+[22:01:17] [9/15] start dp_no_elu_seed1
+[22:02:34]   done  eval=0.0% train_succ=99.6% final_spread=0.0287 time=1.2min
+[22:02:34] [10/15] start dp_norm1_affine_seed0
+[22:03:53]   done  eval=3.3% train_succ=99.2% final_spread=0.0356 time=1.2min
+[22:03:53] [11/15] start dp_norm1_affine_seed1
+[22:05:12]   done  eval=13.3% train_succ=97.3% final_spread=0.0578 time=1.2min
+[22:05:12] [12/15] start dp_eps_anneal_seed0
+[22:06:33]   done  eval=0.0% train_succ=98.9% final_spread=0.4093 time=1.3min
+[22:06:33] [13/15] start dp_eps_anneal_seed1
+[22:07:53]   done  eval=0.0% train_succ=98.4% final_spread=0.0314 time=1.2min
+[22:07:53] [14/15] start dp_no_replay_dup_seed0
+[22:09:13]   done  eval=0.0% train_succ=99.6% final_spread=0.0392 time=1.3min
+[22:09:13] [15/15] start dp_no_replay_dup_seed1
+[22:10:34]   done  eval=0.0% train_succ=89.8% final_spread=0.0122 time=1.3min
+[22:10:34] done
+[22:10:34] report: /home/CNS2026014739/Projects/csp_learning/pytorch_cspo/sweep_results_v2/sweep_report.md

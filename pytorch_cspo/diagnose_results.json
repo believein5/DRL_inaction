@@ -1,0 +1,53 @@
+{
+  "A": {
+    "test": "A_q_spread_untrained",
+    "max_pairwise_delta": 0.02631467580795288,
+    "per_action_std": [
+      0.008799278177320957,
+      0.003645330434665084,
+      0.012404856272041798,
+      0.004131880588829517,
+      0.005299558863043785
+    ],
+    "verdict": "OK"
+  },
+  "B": {
+    "test": "B_gradient_flow",
+    "conv1_grad_mean": 0.06292001903057098,
+    "linear2_grad_mean": 0.1848878115415573,
+    "ratio": 0.34031458594245095,
+    "verdict": "OK"
+  },
+  "C": {
+    "test": "C_overfit_tiny_buffer",
+    "loss_first100_mean": 0.01458814676199836,
+    "loss_last100_mean": 5.893422623103106e-05,
+    "reduction_factor": 247.53267659459246,
+    "post_overfit_spread": 0.0029726624488830566,
+    "verdict": "OK: network overfit successfully"
+  },
+  "D": {
+    "test": "D_cnn_vs_relational",
+    "cnn": {
+      "tag": "CNN",
+      "eval_success": 0.0,
+      "eval_wins": 0,
+      "train_wins": 10,
+      "train_episodes": 53,
+      "loss_first": 0.0056813559494912624,
+      "loss_last": 0.004285620525479317,
+      "time_min": 0.39582356611887615
+    },
+    "relational": {
+      "tag": "RelationalCorrected",
+      "eval_success": 0.0,
+      "eval_wins": 0,
+      "train_wins": 144,
+      "train_episodes": 159,
+      "loss_first": 0.1847011297941208,
+      "loss_last": 0.00125709583517164,
+      "time_min": 0.8985191742579143
+    },
+    "verdict": "CNN=0% Rel=0%"
+  }
+}
